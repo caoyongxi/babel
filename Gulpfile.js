@@ -80,7 +80,7 @@ function buildBabel(exclude, sourcesGlob = defaultSourcesGlob) {
 
 let babelVersion = require("./packages/babel-core/package.json").version;
 function buildRollup(packages) {
-  const sourcemap = process.env.NODE_ENV === "production";
+  const sourcemap = true//process.env.NODE_ENV === "production";
   const minify = !!process.env.IS_PUBLISH;
   return Promise.all(
     packages.map(
