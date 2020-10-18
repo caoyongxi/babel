@@ -1,6 +1,9 @@
 
 /**
- *  babel 文章
+ *  babel 
+ * 
+ * 调试： node main.js 
+ * 1、为了产生map，需要修改gulp中配置项：libBundles, 然后gulp build 打包既可
  */
 
 // 深入理解Babel原理及其使用

@@ -16,7 +16,7 @@ render(
   </Provider>,
   document.getElementById('root'),
 )*/
-import * as parser from "@babel/parser/src/index.js";
+import * as parser from "@babel/parser";
 import traverse from "@babel/traverse";
 import generate from "@babel/generator";
 // 源代码

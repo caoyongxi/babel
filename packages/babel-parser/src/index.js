@@ -1,5 +1,6 @@
 // @flow
 
+
 import { type Options } from "./options";
 import {
   hasPlugin,

@@ -209,6 +209,21 @@ const libBundles = [
     dest: "lib",
     version: require("./packages/babel-parser/package").version,
   },
+  // 添加lib打包
+  // babel-traverse
+  {
+    src: "packages/babel-traverse",
+    format: "cjs",
+    dest: "lib",
+    version: require("./packages/babel-traverse/package").version,
+  },
+  // babel-traverse
+  {
+    src: "packages/babel-generator",
+    format: "cjs",
+    dest: "lib",
+    version: require("./packages/babel-generator/package").version,
+  },
 ];
 
 const standaloneBundle = [
